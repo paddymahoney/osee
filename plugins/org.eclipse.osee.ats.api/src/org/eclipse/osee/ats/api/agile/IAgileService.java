@@ -108,4 +108,6 @@ public interface IAgileService {
 
    IAgileTeam getAgileTeam(IAgileSprint sprint);
 
+   IAgileTeam getAgileTeamByName(String agileTeamName);
+
 }
